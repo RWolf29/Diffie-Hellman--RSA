@@ -21,7 +21,7 @@ public class Alice_autenticate extends javax.swing.JFrame {
         initComponents();
     }
     
-    BigInteger A;
+    public static BigInteger A;
     BigInteger g;
     BigInteger p;
     BigInteger a;
@@ -35,7 +35,7 @@ public class Alice_autenticate extends javax.swing.JFrame {
         this.kA = kA;
     }
     
-    Bob_autenticate bob = new Bob_autenticate();
+//    Bob_autenticate bob = new Bob_autenticate();
     
 
     /**
@@ -185,7 +185,8 @@ public class Alice_autenticate extends javax.swing.JFrame {
 
     private void jBtn_enviarAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn_enviarAActionPerformed
         // TODO add your handling code here:
-        kA = RSA.exponenModular(bob.getBB(), a, p);
+        kA = RSA.exponenModular(Bob_autenticate.BB, a, p);
+        System.out.println(Bob_autenticate.BB + " " + kA);
     }//GEN-LAST:event_jBtn_enviarAActionPerformed
 
     /**

@@ -4,11 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/Main.java</file>
-            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/Alice.java</file>
             <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/RSA.java</file>
             <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/Bob_autenticate.java</file>
             <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/Alice_autenticate.java</file>
-            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/RSA_Encrypt/src/rsa_encrypt/Bob.java</file>
         </group>
     </open-files>
 </project-private>

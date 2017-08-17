@@ -20,13 +20,13 @@ public class Bob_autenticate extends javax.swing.JFrame {
         initComponents();
     }
     
-    BigInteger BB;
+    public static BigInteger BB;
     BigInteger bB;
     BigInteger gB;
     BigInteger pB;
     BigInteger kB;
     
-    Alice_autenticate alice = new Alice_autenticate();
+    //Alice_autenticate alice = new Alice_autenticate();
 
     public BigInteger getkB() {
         return kB;
@@ -181,7 +181,8 @@ public class Bob_autenticate extends javax.swing.JFrame {
 
     private void jBtn_enviarBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn_enviarBActionPerformed
         // TODO add your handling code here:
-        kB = RSA.exponenModular(alice.getkA(), bB, pB);
+        kB = RSA.exponenModular(Alice_autenticate.A, bB, pB);
+        System.out.println(Alice_autenticate.A + " " + kB);
     }//GEN-LAST:event_jBtn_enviarBActionPerformed
 
     /**
